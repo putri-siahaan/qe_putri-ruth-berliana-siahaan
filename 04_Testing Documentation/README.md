@@ -1,0 +1,9 @@
+# (04) Testing Documentation
+
+Dari materi tersebut, ada tiga poin penting yang dapat dipelajari:
+1. Pentingnya Hierarki Testing Documentation:
+Materi menjelaskan tentang hierarki dalam dokumentasi pengujian, di mana terdapat dua tingkatan utama: Test Scenario dan Test Case. Test Scenario merupakan gambaran umum tentang fitur-fitur yang akan diuji, sedangkan Test Case merinci langkah-langkah yang harus diambil untuk melakukan pengujian. Hierarki ini membantu dalam mengatur dan memahami proses pengujian secara sistematis, memastikan bahwa semua aspek penting diperiksa dan diuji dengan baik.
+2. Pengujian Positif dan Negatif:
+Materi membahas tentang pentingnya melakukan testing positif dan negatif pada fitur yang diuji. Test Case harus mencakup skenario positif, di mana fitur berperilaku seperti yang diharapkan dengan input yang valid, dan skenario negatif, di mana fitur diuji dengan input yang tidak valid atau situasi yang tidak biasa. Ini membantu untuk mengidentifikasi kelemahan dan masalah potensial dalam sistem yang diuji, serta memastikan bahwa aplikasi dapat menangani situasi yang tidak terduga dengan benar.
+3. Komprehensifnya Dokumentasi Pengujian:
+Materi juga menyoroti elemen-elemen penting yang harus ada dalam Test Case, seperti pre-condition (persyaratan sebelum pengujian dilakukan), langkah-langkah yang harus diikuti selama pengujian, hasil yang diharapkan, status hasil pengujian, dan hasil aktual dari pengujian. Dokumentasi yang komprehensif seperti ini membantu dalam pemahaman yang jelas tentang apa yang diuji, bagaimana cara melakukannya, dan bagaimana hasilnya dievaluasi.
