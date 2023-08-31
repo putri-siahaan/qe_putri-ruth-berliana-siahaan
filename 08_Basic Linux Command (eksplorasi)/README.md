@@ -46,6 +46,7 @@ r	w	x	decimal
 1	1	1	7
 ```
 
+```python
 0: tidak memiliki hak akses.
 1: execute.
 2: write.
@@ -54,6 +55,7 @@ r	w	x	decimal
 5: read dan execute.
 6: read dan write.
 7: read, write, dan execute.
+```
 Perintah chmod digunakan untuk mengubah hak akses.
 
 ### Shell Scripting
