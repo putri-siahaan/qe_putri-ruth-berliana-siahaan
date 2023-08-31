@@ -34,6 +34,7 @@ Command Line Interface (CLI) adalah perintah yang ditulis dalam bentuk teks dan 
 Hak akses file ditandai dengan kombinasi rwx (read, write, execute) untuk owner, group, dan others.
 Hak akses diwakili dalam bilangan biner, misalnya 744.
 Contoh hak akses:
+```python
 r	w	x	decimal
 0   0   0   0
 0	0	1	1
@@ -43,6 +44,7 @@ r	w	x	decimal
 1	0	1	5
 1	1	0	6
 1	1	1	7
+```
 
 0: tidak memiliki hak akses.
 1: execute.
