@@ -1,4 +1,4 @@
-# (12) REST API Testing
+# (13) REST API Testing
 Tiga poin yang dapat dipelajari dari materi terkait Pengenalan RESTful API yang diberikan:
 
 ## 1. Pengertian dan Jenis API Testing:
