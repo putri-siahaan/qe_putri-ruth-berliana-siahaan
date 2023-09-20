@@ -10,10 +10,10 @@ Tiga poin yang dapat dipelajari dari materi terkait Web Programming yang diberik
 
 ## 2. HTML (Hypertext Markup Language)
 - HTML adalah standar yang digunakan secara luas untuk membuat halaman web.
-- HTML digunakan untuk membangun struktur dan konten halaman web, termasuk penggunaan tag seperti <div>, <h1>, <p>, <a>, <img>, dan lainnya.
-- Terdapat dua jenis daftar dalam HTML, yaitu ordered list (<ol>) dan unordered list (<ul>) dengan berbagai jenis penanda.
-- Untuk membuat tabel, digunakan tag <table> dengan elemen-elemen seperti baris (<tr>), kolom (<td>), dan kolom header (<th>).
-- Formulir dapat dibuat dengan menggunakan tag <form> yang berisi berbagai jenis input, seperti teks dan radio button.
+- HTML digunakan untuk membangun struktur dan konten halaman web, termasuk penggunaan tag seperti (div), (h1), (p), (a), (img), dan lainnya.
+- Terdapat dua jenis daftar dalam HTML, yaitu ordered list (ol) dan unordered list (ul) dengan berbagai jenis penanda.
+- Untuk membuat tabel, digunakan tag (table) dengan elemen-elemen seperti baris (tr), kolom (td), dan kolom header (th).
+- Formulir dapat dibuat dengan menggunakan tag (form) yang berisi berbagai jenis input, seperti teks dan radio button.
 
 ## 3. Perbedaan Frontend dan Backend
 Frontend adalah bagian dari website yang menciptakan tampilan yang dapat dilihat dan diinteraksikan oleh pengguna.
