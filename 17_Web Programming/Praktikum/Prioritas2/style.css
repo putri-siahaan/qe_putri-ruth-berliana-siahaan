@@ -1,0 +1,57 @@
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    display: table;
+    margin: 0 auto;
+}
+
+#judul {
+    text-align: center;
+    font-size: 25px;
+}
+
+#sub_Title{
+    text-align: center;
+    font-size: 12px;
+}
+
+.container {
+    padding: 0.5rem;
+    height: 50rem;
+    width: 70rem;
+    border: solid rgb(151, 149, 149);
+    border-width: initial;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#input{
+    margin-top: 0.35rem;
+    width: 99.25%;
+    height: 2rem;
+    border-radius: 0.25rem;
+    border: solid rgb(150, 148, 148);
+    border-width: 2px;
+}
+
+#address{
+    margin-top: 0.35rem;
+    width: 99.25%;
+    height: 12rem;
+    border-radius: 0.25rem;
+    border: solid grey;
+    border-width: 2px;
+}
+
+#submit{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    background-color: steelblue;
+    color: rgba(232, 230, 230, 0.907);
+    border-radius: 0.50rem;
+    border-color: rgb(70, 85, 180);
+    height: 2.5rem;
+    font-size: 1rem;
+}
