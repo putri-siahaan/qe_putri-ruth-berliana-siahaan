@@ -119,6 +119,35 @@
             <intProp name="HTTPSampler.ipSourceType">0</intProp>
           </HTTPSamplerProxy>
           <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="sec-ch-ua-arch" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-arch</stringProp>
+                  <stringProp name="Header.value">&quot;x86&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform-version" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform-version</stringProp>
+                  <stringProp name="Header.value">&quot;10.0.0&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-model" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-model</stringProp>
+                  <stringProp name="Header.value">&quot;&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-bitness" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-bitness</stringProp>
+                  <stringProp name="Header.value">&quot;64&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-wow64" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-wow64</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-full-version-list" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-full-version-list</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;113.0.5672.93&quot;, &quot;Chromium&quot;;v=&quot;113.0.5672.93&quot;, &quot;Not-A.Brand&quot;;v=&quot;24.0.0.0&quot;</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
             <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
               <stringProp name="ConstantTimer.delay">0</stringProp>
             </ConstantTimer>
