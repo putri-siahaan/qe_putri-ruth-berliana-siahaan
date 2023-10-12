@@ -1,0 +1,89 @@
+Nama	: Putri Ruth Berliana Siahaan
+Kelas	: QE-A
+
+OpenAI
+
+Q : You are softwate tester. Create a test case and test scenario login from the website "https://www.sepulsa.com/" which has a positive case and a negative case.
+
+Test Case: Login from the website "https://www.sepulsa.com/"
+
+Objective: To test the login functionality on the website "https://www.sepulsa.com/" to ensure successful login for valid credentials and failure for invalid credentials.
+
+Test Scenario 1: Positive Case - Successful Login with valid credentials
+Step 1: Open the website "https://www.sepulsa.com/" on the browser.
+Step 2: Click on the "Login" button located on the top right corner of the homepage.
+Step 3: Enter valid username and password in the respective fields.
+Step 4: Click on the "Login" button.
+Expected Result: The user should be successfully redirected to their account dashboard.
+Actual Result: The user is successfully redirected to their account dashboard.
+
+Test Scenario 2: Negative Case - Login Failure with invalid credentials
+Step 1: Open the website "https://www.sepulsa.com/" on the browser.
+Step 2: Click on the "Login" button located on the top right corner of the homepage.
+Step 3: Enter invalid username and password in the respective fields.
+Step 4: Click on the "Login" button.
+Expected Result: The user should receive an error message "Invalid credentials. Please try again."
+
+Test Scenario 3: Negative Case - Blank login fields
+Step 1: Open the website "https://www.sepulsa.com/" on the browser.
+Step 2: Click on the "Login" button located on the top right corner of the homepage.
+Step 3: Leave the username and password fields blank.
+Step 4: Click on the "Login" button.
+Expected Result: The user should receive an error message "Please fill in all the fields." 
+
+Test Scenario 4: Negative Case - Login with only username
+Step 1: Open the website "https://www.sepulsa.com/" on the browser.
+Step 2: Click on the "Login" button located on the top right corner of the homepage.
+Step 3: Enter a valid username but leave the password field blank.
+Step 4: Click on the "Login" button.
+Expected Result: The user should receive an error message "Please enter your password."
+
+Q: Create testing stages from the test case above where the tools use Selenium IDE
+
+
+1. Test Stage 1: Set Up and Pre-requisites
+- Download and install Selenium IDE tool
+- Open the tool and select the correct browser and version to test on
+- Ensure the website, "https://www.sepulsa.com/", is accessible
+- Verify that the login button is present and clickable
+
+2. Test Stage 2: Positive Case - Successful Login
+- Click on the "Login" button using Selenium IDE
+- Enter valid username and password in the respective fields
+- Click on the "Login" button again
+- Verify that the user is successfully redirected to their account dashboard
+- Use an assertion to ensure that the expected result matches the actual result
+
+3. Test Stage 3: Negative Case - Login Failure with invalid credentials
+- Click on the "Login" button using Selenium IDE
+- Enter invalid username and password in the respective fields
+- Click on the "Login" button again
+- Verify that the user receives an error message "Invalid credentials. Please try again."
+- Use an assertion to ensure that the expected result matches the actual result
+
+4. Test Stage 4: Negative Case - Blank login fields
+- Click on the "Login" button using Selenium IDE
+- Leave the username and password fields blank
+- Click on the "Login" button again
+- Verify that the user receives an error message "Please fill in all the fields."
+- Use an assertion to ensure that the expected result matches the actual result
+
+5. Test Stage 5: Negative Case - Login with only username
+- Click on the "Login" button using Selenium IDE
+- Enter a valid username but leave the password field blank
+- Click on the "Login" button again
+- Verify that the user receives an error message "Please enter your password."
+- Use an assertion to ensure that the expected result matches the actual result
+
+
+Q: Does the testing that has been carried out contain any bugs?
+
+
+Based on the test scenarios and stages created, it is possible that the testing may reveal bugs in the login functionality of the website "https://www.sepulsa.com/". Some potential bugs that may be uncovered include:
+
+1. Failure to redirect the user to their account dashboard after successful login
+2. Failure to display the correct error message for invalid credentials or blank fields
+3. Failure to prevent login with only a username and no password
+4. Failure to successfully click on the login button
+
+These are just some examples of potential bugs that may be uncovered through testing. Further testing may reveal more bugs or variants of the above-mentioned ones.
