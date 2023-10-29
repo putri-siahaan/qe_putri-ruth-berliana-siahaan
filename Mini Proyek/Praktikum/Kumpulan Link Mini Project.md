@@ -6,5 +6,5 @@
 [5. Link Bug Report Mini Project(Gdocs)](https://docs.google.com/document/d/14Aebd5zsa_P-GWNTxnfatsKACnX7Snpij4EkfD-m9RY/edit?usp=sharing) <br>
 [6. Link Repositori Github CICD](https://github.com/putri-siahaan/CI-CD_Mini-Project.git) <br>
 [7. Link Praktikum RESTful API - Automation Testing (Serenity BDD-IntelliJ)](https://drive.google.com/drive/folders/1uMiYAxcAZG5eyEejP0Ppl2heMYh2kehF?usp=sharing) <br>
-[8. Link Praktikum Web UI - Automation Testing (Serenity BDD-IntelliJ)](https://drive.google.com/drive/folders/11ualDP9aeEwlM3YWnH9EFtgJkYY_EQya?usp=drive_link)
+[8. Link Praktikum Web UI - Automation Testing (Serenity BDD-IntelliJ)](https://drive.google.com/drive/folders/11ualDP9aeEwlM3YWnH9EFtgJkYY_EQya?usp=drive_link) <br>
 [9. Link Praktikum Mobile - Automation Testing (Appium - Katalon Studio)](https://drive.google.com/drive/folders/1lo1wp7comkP-RdZnhAVE6dBydUKthfW5?usp=sharing)
