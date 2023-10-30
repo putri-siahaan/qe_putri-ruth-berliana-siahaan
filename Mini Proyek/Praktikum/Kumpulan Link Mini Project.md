@@ -8,3 +8,4 @@
 [7. Link Praktikum RESTful API - Automation Testing (Serenity BDD-IntelliJ)](https://drive.google.com/drive/folders/1uMiYAxcAZG5eyEejP0Ppl2heMYh2kehF?usp=sharing) <br>
 [8. Link Praktikum Web UI - Automation Testing (Serenity BDD-IntelliJ)](https://drive.google.com/drive/folders/11ualDP9aeEwlM3YWnH9EFtgJkYY_EQya?usp=drive_link) <br>
 [9. Link Praktikum Mobile - Automation Testing (Appium - Katalon Studio)](https://drive.google.com/drive/folders/1lo1wp7comkP-RdZnhAVE6dBydUKthfW5?usp=sharing)
+[10. Link Tracking Management Tools (Trello)](https://trello.com/invite/b/TB6TZkFq/ATTIa52498f04be9e0d970f3e02dbdf401862D0BBBE5/mini-project-tracking-management-tools)
