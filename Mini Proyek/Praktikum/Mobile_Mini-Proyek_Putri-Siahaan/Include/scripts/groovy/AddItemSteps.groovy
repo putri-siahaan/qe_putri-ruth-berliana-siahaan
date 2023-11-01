@@ -102,6 +102,7 @@ class AddItemSteps {
 	@Then("verify success to add a new item and back to Groceries page to display new item")
 	def verifySuccessAddNewItem() {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Delete/pageGroceries'), 45)
+		Mobile.getText(findTestObject('Object Repository/Add_Item/GroceriesPages'), 0)
 		println("Success to Add New Item")
 		takeScreenshot("verify success to add a new item and back to Groceries page to display new item")
 	}
@@ -121,6 +122,7 @@ class AddItemSteps {
 	@Then("verify failed to add a new item and display error message")
 	def verifyFailedAddNewItem() {
 		Mobile.verifyElementVisible(findTestObject('Object Repository/Add_Item/errorMessageWithInvalidName'), 0)
+		Mobile.getText(findTestObject('Object Repository/Add_Item/withoutName'), 0)
 		println("Failed to Add new item")
 		//		String actual_AlertText = Mobile.getText(findTestObject('Object Repository/Add_Item/errorMessageWithInvalidName'), 10)
 		//
@@ -139,6 +141,15 @@ class AddItemSteps {
 		Mobile.tap(findTestObject('Object Repository/Add_Item/quantityItem'), 0)
 		Mobile.clearText(findTestObject('Object Repository/Add_Item/quantityItem'), 0)
 	}
+	
+	@Then("verify failed to add a new item and display error message on quantity field")
+	def verifyFailedAddNewItemBecuseDidNotInputQuantity() {
+		Mobile.verifyElementVisible(findTestObject('Object Repository/Add_Item/errorMessageWithInvalidName'), 0)
+		Mobile.getText(findTestObject('Object Repository/Add_Item/withoutQuantity'), 0)
+		println("Failed to Add new item")
+		takeScreenshot("verify failed to add a new item and display error message on quantity field")
+	}
+
 
 
 
@@ -159,22 +170,6 @@ class AddItemSteps {
 		Mobile.clearText(findTestObject('Object Repository/Add_Item/quantityItem'), 0)
 		Mobile.setText(findTestObject('Object Repository/Add_Item/quantityItem'), '2.5', 0)
 	}
-
-
-
-	//TC6
-	@And("User click Reset button")
-	def resetButton() {
-		Mobile.tap(findTestObject('Object Repository/Add_Item/resetButton'), 0)
-	}
-
-	@Then("verify success to reset form")
-	def successToResetForm() {
-		Mobile.waitForElementPresent(findTestObject('Object Repository/Add_Item/formAddNewItem'), 45)
-		println("Success to reset form")
-		takeScreenshot("verify success to reset form")
-	}
-
 
 	private void takeScreenshot(String stepName) {
 		AppiumDriver<WebElement> mobileDriver = MobileDriverFactory.getDriver()

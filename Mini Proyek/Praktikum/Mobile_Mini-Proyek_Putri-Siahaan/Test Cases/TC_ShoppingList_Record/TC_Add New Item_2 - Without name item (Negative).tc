@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Add New Item_2 - Without name item (Negative)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67eba693-985c-468f-8823-2cbe13a82282</testCaseGuid>
+</TestCaseEntity>
